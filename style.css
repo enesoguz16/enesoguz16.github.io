@@ -32,6 +32,7 @@
 
 .row {
   min-height: 300px;
+  display-flex;
 }
 
 .leftside {
@@ -43,9 +44,12 @@
 
 .content {
   min-height: 300px;
-  float:right;
-  width:557px;
+  margin:0 auto;
   background-color:#f28c8c;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex:1;
 }
 
 .row:after { /* clearfix*/
@@ -62,3 +66,4 @@
   text-align:center;
   padding:40px;
 }
+
